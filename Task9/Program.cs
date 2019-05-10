@@ -44,7 +44,7 @@ namespace Task9
                                                      //добавление в начало
         {
             int info = 0;
-            Random rnd = new Random();
+           
             if (size == 0) return null;
             if (size != 0)
             {
@@ -144,7 +144,7 @@ namespace Task9
         static void Main(string[] args)
         {
             Point p = new Point();
-            p = MakeList2(5, false);
+            p = MakeList2(5, true);
             ShowList(p);
             int r = Total(p);
             Console.WriteLine(r);
